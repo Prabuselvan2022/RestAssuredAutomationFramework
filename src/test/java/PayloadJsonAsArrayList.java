@@ -15,6 +15,7 @@ public class PayloadJsonAsArrayList {
 		RequestSpecBuilder  reqspecbuilder=  new RequestSpecBuilder()
 				.setBaseUri("https://api.postman.com")
 				.setContentType(ContentType.JSON)
+				
 				.log(LogDetail.ALL);
 		
 		RestAssured.requestSpecification = reqspecbuilder.build();
